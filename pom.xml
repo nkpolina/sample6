@@ -35,6 +35,11 @@
                         <groupId>com.google.code.plsqlmaven</groupId>
                         <artifactId>plsql-webapp-deployer</artifactId>
                 </dependency>
+				<dependency>
+  <groupId>com.oracle</groupId>
+  <artifactId>ojdbc10</artifactId>
+  <version>19.18.0.0</version>
+</dependency>
         </dependencies>
   <build>
     <finalName>sample6</finalName>
